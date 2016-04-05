@@ -12,16 +12,18 @@
     tools:context="ower.lionseun.lib8.colormatrix.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <ImageView
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:id="@+id/textView" />
+        android:id="@+id/imageViewA"
+        android:maxHeight="400dp"
+        android:src="@mipmap/example"
+        />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageView"
-        android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:id="@+id/imageViewB"
+        android:src="@mipmap/example"
+        />
 </RelativeLayout>
